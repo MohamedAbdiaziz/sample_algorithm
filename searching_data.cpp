@@ -10,11 +10,11 @@ int main()
 {
 
 	const int SIZE = 5;
-    int tests[SIZE];
+    	int tests[SIZE];
 	int result;         // Holds the search result
 	int i = 0;
 	for (; i<SIZE; i++){
-        cout<<"Please Enter Your Scores: ";
+        cout<<"Please Enter Your Score"<<i+1<<": ";
         cin>>tests[i];
 	}
 
